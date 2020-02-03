@@ -3,12 +3,12 @@ class Adder {
         this.props = props;
     }
 
-    /*function sum(x, y) {
-        return x + y;
-    }*/
+    sum() {
+        return `${this.props.a + this.props.b}`
+    }
 
     render() {
-        return `<p>The sum of ${this.props.a} and ${this.props.b} is ${sum(this.props.a, this.props.b)}</p>`;
+        return `<p>The sum of ${this.props.a} and ${this.props.b} is ${this.sum()}</p>`;
     }
 }
 

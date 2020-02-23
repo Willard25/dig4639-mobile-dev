@@ -1,4 +1,4 @@
-import { Sum, AddList } from './MyMath.js'
+import { Sum } from './MyMath.js'
 
 describe("Sum", () => {
 

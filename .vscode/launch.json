@@ -5,12 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "node",
             "request": "launch",
-            "name": "Launch Chrome",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
-        },
+            "name": "Launch W8A Demo",
+            "program": "${workspaceFolder}/demo/w8a/index.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },   
         {
             "type": "node",
             "request": "launch",
